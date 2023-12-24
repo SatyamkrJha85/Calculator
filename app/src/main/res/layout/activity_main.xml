@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="6"
+    android:layout_margin="6dp"
+    tools:context=".MainActivity">
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="4"
+        android:gravity="end"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:text="0"
+        android:background="#918F8F"/>
+
+    <!-- Buttons -->
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn1"
+        android:text="1" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn2"
+        android:text="2" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn3"
+        android:text="3" />
+
+    <Button
+        style="@style/OperationButton"
+        android:id="@+id/btnadd"
+        android:text="+" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn4"
+        android:text="4" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn5"
+        android:text="5" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn6"
+        android:text="6" />
+
+    <Button
+        style="@style/OperationButton"
+        android:id="@+id/btnsub"
+        android:text="-" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn7"
+        android:text="7" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn8"
+        android:text="8" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn9"
+        android:text="9" />
+
+    <Button
+        style="@style/OperationButton"
+        android:id="@+id/btnmul"
+        android:text="*" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btn0"
+        android:text="0" />
+
+    <Button
+        style="@style/CalculatorButton"
+        android:id="@+id/btnpnt"
+        android:text="." />
+
+    <Button
+        style="@style/OperationButton"
+        android:id="@+id/btndiv"
+        android:text="/" />
+
+    <Button
+        style="@style/OperationButton"
+        android:id="@+id/btnequal"
+        android:text="=" />
+
+</GridLayout>
