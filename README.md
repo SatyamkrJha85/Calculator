@@ -9,8 +9,9 @@ A simple calculator app for Android.
 - Error handling to prevent division by zero.
 
 ## Screenshots
+![Screenshot](screenshots/screenshot![calsipic](https://github.com/SatyamkrJha85/Calculator/assets/111700337/848b5c73-d254-4459-b7e0-4c54d41b19f2)
+_small.png)
 
-![WhatsApp Image 2023-12-24 at 18 02 32_327efc65](https://github.com/SatyamkrJha85/Calculator/assets/111700337/85286340-e4a5-4421-ae66-45e5ca9e61ef)
 
 
 ## Getting Started
